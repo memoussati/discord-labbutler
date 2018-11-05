@@ -8,3 +8,10 @@ named `.env` in the project root and write the following to it:
 ```bash
 BOT_TOKEN="<your-discord-bot-token>"
 ```
+
+### Running with docker
+First, build the docker image:
+`docker built . -t "philslab/discord-labbutler"`
+
+Then, to execute the container (interactively, for testing!) and set the discord bot token:
+`docker run --rm -it -e "BOT_TOKEN=<your-discord-bot-token>" philslab/discord-labbutler`
