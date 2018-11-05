@@ -11,7 +11,7 @@ BOT_TOKEN="<your-discord-bot-token>"
 
 ### Running with docker
 First, build the docker image:
-`docker built . -t "philslab/discord-labbutler"`
+```docker built . -t "philslab/discord-labbutler"```
 
 Then, to execute the container (interactively, for testing!) and set the discord bot token:
-`docker run --rm -it -e "BOT_TOKEN=<your-discord-bot-token>" philslab/discord-labbutler`
+```docker run --rm -it -e "BOT_TOKEN=<your-discord-bot-token>" philslab/discord-labbutler```
