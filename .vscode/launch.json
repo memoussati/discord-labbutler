@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Debug Module",
+        "type": "python",
+        "request": "launch",
+        "module": "discord_labbutler",
+        "console": "integratedTerminal",
+        "envFile": "${workspaceFolder}/.env"
+    }]
+}
